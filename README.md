@@ -2,7 +2,7 @@
 Configuration to use log4net and logstash
 
 ### Use this conversion pattern log4net to use logstash configuration below:
-  ```<param name="ConversionPattern" value="%-level [SystemName] [%d][%t] [%property{log4net:HostName}] - %message - [%exception]endline%newline" />```
+  ```<param name="ConversionPattern" value="%-level [ApplicationName] [%d][%t] [%property{log4net:HostName}] - %message - [%exception]endline%newline" />```
 
 ### Use this contents of the Logstash configuration file:
 ```
